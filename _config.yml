@@ -1,9 +1,18 @@
-layout_spectrum: 0.8346827272325754
-typography_spectrum: 0.34356975951232016
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  brandStrength: 0.740748749114573
-  lightness: 0.5991349520627409
   saturation: 0.3571064139250666
+  brandStrength: 0.740748749114573
   rhythmicContrast: 0.703800946706906
   brandColors:
     - '#E7E8D1'
@@ -11,4 +20,7 @@ color:
     - '#FBF7E4'
     - '#424242'
     - '#8E001C'
+  lightness: 0.5991349520627409
+typography_spectrum: 0.8715651
+layout_spectrum: 0
 name: Sacred Instrument Number One
